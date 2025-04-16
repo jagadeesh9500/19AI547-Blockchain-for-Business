@@ -36,7 +36,7 @@ contract CertificateVerification {
 
 ```
 # Expected Output:
-```
+
 ![Screenshot 2025-04-16 090630](https://github.com/user-attachments/assets/6d91441c-4d55-4d51-89b0-3cbba8f86835)
 ![Screenshot 2025-04-16 090856](https://github.com/user-attachments/assets/2101650a-a5a9-46f0-88fe-73f6b994c98b)
 ![Screenshot 2025-04-16 091116](https://github.com/user-attachments/assets/2c74b9ee-32f2-4941-941a-5b44cc1d9eba)
@@ -44,7 +44,7 @@ contract CertificateVerification {
 
 
 
-```
+
 # Result:
 To develop a smart contract for issuing and verifying academic certificates on Ethereum, preventing forgery and ensuring authenticity is executed successfully.
 
