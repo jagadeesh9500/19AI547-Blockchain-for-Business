@@ -56,14 +56,13 @@ contract ZKVoting {
 }
 
 ```
-# Expected Output:
-Voters commit their votes privately.
+# Output:
 
-
-When revealed, the contract verifies correctness but keeps votes anonymous.
-
-
-Final result is publicly verifiable without exposing individual votes.
+![Screenshot 2025-04-25 130008](https://github.com/user-attachments/assets/c1b0ca62-9607-4c17-8cd3-7639cbd7994e)
+![Screenshot 2025-04-25 130223](https://github.com/user-attachments/assets/0ed0ac42-4900-4067-a28f-35c9ae9678b3)
+![Screenshot 2025-04-25 130344](https://github.com/user-attachments/assets/7e9c8371-2329-45bb-a090-38421bef622c)
+![Screenshot 2025-04-25 130433](https://github.com/user-attachments/assets/f2eb4a4a-88e0-4001-82da-55d0c34399d6)
+![Screenshot 2025-04-25 130500](https://github.com/user-attachments/assets/376cf351-3bb7-4ca5-b003-c3e09c1e03c8)
 
 
 
@@ -77,3 +76,4 @@ Prevents vote tampering while maintaining voter privacy.
 Mimics real-world ZK voting applications in governance and DAOs.
 
 # RESULT: 
+The implement a fully private and transparent voting system using Zero-Knowledge Proofs (ZKPs) is successfully executed.
