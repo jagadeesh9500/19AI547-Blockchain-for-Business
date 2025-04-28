@@ -16,6 +16,9 @@ The smart contract verifies the signature using the user’s public key.
 
 
 # Program:
+#### Developed by: JAGADEESH P
+#### Register number: 212223230083
+#### Date: 28/04/2025
 ```
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
@@ -41,13 +44,11 @@ contract PasswordlessAuth {
 ```
 
 # Expected Output:
-Users can register without a password.
+![WhatsApp Image 2025-04-28 at 14 59 55_611321f6](https://github.com/user-attachments/assets/59ac4648-5263-482c-860c-28a029746043)
+![WhatsApp Image 2025-04-28 at 15 00 00_6d08918e](https://github.com/user-attachments/assets/f725d1bc-6dfa-4fe0-ba62-53375b762257)
+![WhatsApp Image 2025-04-28 at 15 00 10_b451feb1](https://github.com/user-attachments/assets/a36c9e9a-904a-4390-abdc-d22547ddaa4a)
+![WhatsApp Image 2025-04-28 at 15 00 10_4d515622](https://github.com/user-attachments/assets/ce86464f-a93e-453a-a4ba-3044efbed303)
 
-
-Users sign a challenge with their private key for authentication.
-
-
-The smart contract verifies signatures to confirm identity.
 
 
 
@@ -61,3 +62,4 @@ Uses Ethereum's built-in cryptographic functions.
 Inspired by Web3 login solutions like MetaMask authentication.
 
 # RESULT: 
+To implement a secure passwordless authentication system using public-private key cryptography on Ethereum. This prevents phishing and password leaks is executed successfully
