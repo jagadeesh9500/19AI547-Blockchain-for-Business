@@ -3,32 +3,27 @@
 To build a decentralized lending protocol where users can deposit assets to earn interest and borrow assets by providing collateral. This experiment introduces concepts like overcollateralization, liquidity pools, and interest accrual in DeFi.
 
 # Algorithm:
-Step 1: Setup Lending and Borrowing Mechanism
-Users deposit ETH into the contract as liquidity.
 
+Step 1: Users deposit ETH into the smart contract to earn interest over time.
 
-Depositors receive interest based on their deposits.
+Step 2: Users can borrow ETH by providing enough collateral (at least 150% of the borrowed amount).
 
+Step 3: The contract checks that collateral is sufficient before allowing the loan.
 
-Borrowers can borrow ETH but must provide collateral (e.g., 150% of the borrowed amount).
+Step 4: Interest is calculated dynamically based on how much ETH is borrowed compared to total deposits.
 
+Step 5: If a borrower’s collateral value drops below the safe level (liquidation threshold), they can be liquidated.
 
-Interest on borrowed funds is calculated dynamically based on utilization rate.
-
-
-Step 2: Implement Overcollateralization
-If a borrower’s collateral value drops below a certain liquidation threshold, their collateral is liquidated to repay the debt.
-
-
-Step 3: Allow Liquidation
-If collateral < liquidation threshold, liquidators can repay the borrower's debt and claim their collateral at a discount.
+Step 6: Liquidators can repay a borrower's debt and claim their collateral to maintain system stability.
 
 
 
-Program:
+# Program:
+#### Developed by: jagadeesh P
+#### Register number: 212223230083
+#### Date: 28/04/2025
+
 ```
-reg no:212223230083
-name:jagadeesh P
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
@@ -75,20 +70,36 @@ contract DeFiLending {
 }
 
 ```
-# Expected Output:
-![Screenshot 2025-04-21 141820](https://github.com/user-attachments/assets/829fda6c-2a39-445f-9a24-cddd72124b5e)
-![Screenshot 2025-04-21 141837](https://github.com/user-attachments/assets/c79dc90f-a43f-49f1-b95c-469f1405de03)
-![Screenshot 2025-04-21 141850](https://github.com/user-attachments/assets/f01bcc12-2b7d-493a-af9d-b9e125eaa5ab)
 
+# Output :
 
-# High-Level Overview:
-Teaches key DeFi concepts: lending, borrowing, collateral, liquidation.
+### Borrow
+![Screenshot 2025-04-28 144014](https://github.com/user-attachments/assets/e7e2d7a0-853e-452c-a139-740318a8002a)
 
+### Liquidate
+![Screenshot 2025-04-28 144032](https://github.com/user-attachments/assets/ee77b646-7e92-48c6-a8b7-695c2f9b7e05)
 
-Introduces risk management: overcollateralization and liquidation.
+### ReduceCollateral
+![Screenshot 2025-04-28 144044](https://github.com/user-attachments/assets/d9331898-d857-41c7-83d6-be9bfa39b9ba)
 
+### Borrowed
+![Screenshot 2025-04-28 144055](https://github.com/user-attachments/assets/ce392cbd-0556-44a2-9652-63c124f2846d)
 
-Directly related to DeFi protocols like Aave and Compound.
+### Collateral
+![Screenshot 2025-04-28 144107](https://github.com/user-attachments/assets/ebda449d-3e8a-4521-9f31-737cafb5d4e2)
+
+### Deposits
+![Screenshot 2025-04-28 144117](https://github.com/user-attachments/assets/f653e021-cfac-46be-8d8c-1e3768afc0c9)
+
+### Interest rate
+![Screenshot 2025-04-28 144128](https://github.com/user-attachments/assets/4a192789-731f-4414-85fa-8a47f2e08c59)
+
+### Liquidation threshold call
+![Screenshot 2025-04-28 144138](https://github.com/user-attachments/assets/52625466-d23d-40c7-a7f6-64db72e8b374)
+
+### Owner
+![Screenshot 2025-04-28 144151](https://github.com/user-attachments/assets/d00bad4e-8148-4f45-8277-1facb98866c0)
 
 # RESULT : 
-Thus the program is verified and executed successfully.
+
+Thus, to build a decentralized lending protocol where users can deposit assets to earn interest and borrow assets by providing collateral. This experiment introduces concepts like overcollateralization, liquidity pools, and interest accrual in DeFi is executed successfully.
